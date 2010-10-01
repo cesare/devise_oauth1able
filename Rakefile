@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "devise_oauth1able"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{OAuth1.x plugin for Devise}
+    gem.description = %Q{OAuth1.x plugin for Devise}
     gem.email = "cesare@mayverse.jp"
     gem.homepage = "http://github.com/cesare/devise_oauth1able"
     gem.authors = ["SAWADA Tadashi"]
