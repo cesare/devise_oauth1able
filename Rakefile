@@ -10,7 +10,9 @@ begin
     gem.email = "cesare@mayverse.jp"
     gem.homepage = "http://github.com/cesare/devise_oauth1able"
     gem.authors = ["SAWADA Tadashi"]
+    gem.add_dependency "oauth", "~> 0.4.2"
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.files = FileList['app/**/*', 'lib/**/*', 'LICENSE', 'README.rdoc', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'VERSION', '*.gemspec'].to_a
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
